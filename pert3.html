@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Blog Page</h1>
+    </header>
+
+    <nav>
+        <a href="pert1.html">Home</a>
+        <a href="pert2.html">Blog</a>
+    </nav>
+
+    <section>
+        <article>
+            Text
+        </article>
+    </section>
+
+    <footer>
+        <p>Copyright</p>
+    </footer>
+
+    <input type="date">
+    <input type="text">
+    <input type="email">
+    <input type="password">
+    <input type="radio">
+    <input type="checkbox">
+
+    <form action="submit.php" method="post" target="_blank">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <input type="submit" value="submit">
+    </form>
+
+    <form action="submit.php" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="nama">Nama</label>
+            <input type="text" id="text" name="name" required><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br>
+
+            <input type="submit" value="submit">
+
+            <label for="jenis kelamin">Jenis Kelamin</label>
+            <input type="radio" name="male" id="m">
+            <input type="radio" name="female" id="f">
+        </fieldset>
+    </form>
+</body>
+</html>

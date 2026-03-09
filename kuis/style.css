@@ -1,0 +1,21 @@
+
+.img{
+    display: inline-block;
+    align-self: center;
+    margin: auto;
+}
+
+.box{
+    background-color: rgb(111, 111, 216);
+    width: 50px;
+    height: 23px;
+    margin: auto;
+}
+.box1{
+    background-color: rgb(224, 224, 233);
+    width: 200px;
+    height: 260px;
+    margin: auto;
+    padding: 50px;
+    
+}
